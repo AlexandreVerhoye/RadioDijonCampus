@@ -16,6 +16,10 @@ import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 import Tab4 from './pages/Tab4';
 
+/* Icons*/
+import { home , radio, archive, save } from 'ionicons/icons';
+
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -48,19 +52,19 @@ const App: React.FC = () => (
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon icon={triangle} />
+            <IonIcon icon={home} />
             <IonLabel>Accueil</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={ellipse} />
+            <IonIcon icon={radio} />
             <IonLabel>Podcasts</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={square} />
+            <IonIcon icon={archive} />
             <IonLabel>Archives</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
-            <IonIcon icon={square} />
+            <IonIcon icon={save} />
             <IonLabel>Playlist</IonLabel>
           </IonTabButton>
         </IonTabBar>
