@@ -3,7 +3,8 @@ import { IonContent, IonHeader, IonFooter, IonPage, IonTitle, IonToolbar } from 
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
-import Player from '../components/Player';
+import PlayerToolbar from '../components/PlayerToolbar';
+import LiveCard from '../components/LiveCard';
 
 const Tab1: React.FC = () => {
   return (
@@ -19,9 +20,11 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Accueil</IonTitle>
           </IonToolbar>
         </IonHeader>
+
+        <LiveCard/>
       </IonContent>
       <IonFooter>
-        <Player/>
+        <PlayerToolbar/>
       </IonFooter>
     </IonPage>
   );

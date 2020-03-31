@@ -12,15 +12,12 @@ import {
   IonSegmentButton,
 } from '@ionic/react';
 
-import { play } from 'ionicons/icons';
 
-
-const Player: React.FC = () => (
+const PlayerToolbar: React.FC = () => (
   <IonToolbar>
-    <IonIcon icon={play} />
     <IonTitle>Lecture en cours</IonTitle>
   </IonToolbar>
 
 );
 
-export default Player;
+export default PlayerToolbar;
