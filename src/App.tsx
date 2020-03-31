@@ -65,7 +65,7 @@ const App: React.FC = () => (
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
             <IonIcon icon={save} />
-            <IonLabel>Playlist</IonLabel>
+            <IonLabel>Playlists</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

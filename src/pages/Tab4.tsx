@@ -8,13 +8,13 @@ const Tab4: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Playlist</IonTitle>
+          <IonTitle>Playlists</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Playlist</IonTitle>
+            <IonTitle size="large">Playlists</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 3 page" />
