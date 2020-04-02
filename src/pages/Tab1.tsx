@@ -20,11 +20,10 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Accueil</IonTitle>
           </IonToolbar>
         </IonHeader>
-
         <LiveCard/>
+        <PlayerToolbar/>
       </IonContent>
       <IonFooter>
-        <PlayerToolbar/>
       </IonFooter>
     </IonPage>
   );
