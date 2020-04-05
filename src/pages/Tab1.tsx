@@ -18,7 +18,10 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Accueil</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <LiveCard/>
+        <LiveCard name="test1" subtitle="Ecoutez le live dès maintenant !" desc="poulet"/>
+        <LiveCard name="tes2" subtitle="Carte de test" desc="frite"/>
+        <LiveCard name="coca" subtitle="Carte de test" desc="coca"/>
+
       </IonContent>
       <IonFooter>
       </IonFooter>

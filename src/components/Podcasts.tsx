@@ -1,5 +1,6 @@
 import React from 'react'
 import { IonList, IonItem, IonContent, IonLoading } from '@ionic/react';
+import Morceau from './Morceau';
 
 type Props = {}
 
@@ -32,7 +33,7 @@ export default class Podcasts extends React.Component<Props, State> {
         <IonContent>
           <IonList>
             {this.state.podcasts.map(podcast => 
-            <IonItem>{podcast.title.rendered}</IonItem>
+            <Morceau title={podcast.title.rendered}/>
             )}
           </IonList>
         </IonContent>
