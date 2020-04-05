@@ -8,13 +8,13 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Podcast</IonTitle>
+          <IonTitle>Podcasts</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Podcast</IonTitle>
+            <IonTitle size="large">Podcasts</IonTitle>
           </IonToolbar>
         </IonHeader>
         <Podcasts/>

@@ -33,7 +33,7 @@ export default class Podcasts extends React.Component<Props, State> {
         <IonContent>
           <IonList>
             {this.state.podcasts.map(podcast => 
-            <Morceau title={podcast.title.rendered}/>
+              <Morceau title={podcast.title.rendered} id={podcast.id} desc={podcast.content.rendered} date={podcast.date} lien={podcast.link}/>
             )}
           </IonList>
         </IonContent>
