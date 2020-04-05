@@ -1,5 +1,5 @@
 import React from 'react'
-import { IonList, IonItem, IonContent } from '@ionic/react';
+import { IonList, IonItem, IonContent, IonLoading } from '@ionic/react';
 
 type Props = {}
 
@@ -36,7 +36,13 @@ export default class Podcasts extends React.Component<Props, State> {
         </IonContent>
       )
     } else {
-      return (<p>Liste en cours de chargement</p>
+      return (
+        <IonContent>
+          <IonLoading
+          isOpen={!this.state.isLoaded}
+          message={'Chargement des podcasts en cours...'}
+          duration={5000}/>
+      </IonContent>
       )
     }
 
