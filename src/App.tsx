@@ -20,9 +20,11 @@ import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 import Tab4 from './pages/Tab4';
+import Tab5 from './pages/Tab5';
+
 
 /* Icons*/
-import { home , radio, archive, save } from 'ionicons/icons';
+import { home , radio, archive, save, play } from 'ionicons/icons';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -53,6 +55,7 @@ const App: React.FC = () => (
           <Route path="/tab2" component={Tab2} exact={true} />
           <Route path="/tab3" component={Tab3} />
           <Route path="/tab4" component={Tab4} />
+          <Route path="/tab5" component={Tab5} />
           <Route path="/" render={() => <Redirect to="/tab1" />} exact={true} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
@@ -71,6 +74,10 @@ const App: React.FC = () => (
           <IonTabButton tab="tab4" href="/tab4">
             <IonIcon icon={save} />
             <IonLabel>Playlists</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="tab5" href="/tab5">
+            <IonIcon icon={play} />
+            <IonLabel>Lecture</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
