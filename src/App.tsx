@@ -8,12 +8,6 @@ import {
   IonTabBar,
   IonTabButton,
   IonTabs,
-  IonContent,
-  IonFooter,
-  IonToolbar,
-  IonTitle,
-  IonFab,
-  IonFabButton
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Tab1 from './pages/Tab1';
