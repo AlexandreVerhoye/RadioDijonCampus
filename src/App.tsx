@@ -22,7 +22,7 @@ import Tab3 from './pages/Tab3';
 import Tab4 from './pages/Tab4';
 
 /* Icons*/
-import { home , radio, archive, save, arrowUpCircle } from 'ionicons/icons';
+import { home , radio, archive, save } from 'ionicons/icons';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -46,9 +46,6 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-
-  
-
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>

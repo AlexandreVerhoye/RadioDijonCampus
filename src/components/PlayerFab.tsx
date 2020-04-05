@@ -7,7 +7,7 @@ import {
 import {musicalNote } from 'ionicons/icons';
 
 
-const PlayerToolbar: React.FC = () => (
+const PlayerFab: React.FC = () => (
   <IonFab vertical="bottom" horizontal="end" slot="fixed">
           <IonFabButton>
             <IonIcon icon={musicalNote} />
@@ -16,4 +16,4 @@ const PlayerToolbar: React.FC = () => (
 
 );
 
-export default PlayerToolbar;
+export default PlayerFab;

@@ -31,7 +31,9 @@ export default class Podcasts extends React.Component<Props, State> {
       return (
         <IonContent>
           <IonList>
-            {this.state.podcasts.map(podcast => <IonItem>{podcast.title.rendered}</IonItem>)}
+            {this.state.podcasts.map(podcast => 
+            <IonItem>{podcast.title.rendered}</IonItem>
+            )}
           </IonList>
         </IonContent>
       )
